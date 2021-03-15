@@ -82,7 +82,7 @@ Maintained by @Theshashank
 
 HELP_STRINGS = """
 Hey there! My name is *{}*.
-I'm a Hero For Fun and help admins manage their groups with Naruto! Have a look at the following for an idea of some of \
+I'm a Hero For Fun and help admins manage their groups with Nobita! Have a look at the following for an idea of some of \
 the things I can help you with.
 
 *Main* commands available:
@@ -101,7 +101,7 @@ And the following:
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
 )
 
-SAITAMA_IMG = "https://telegra.ph/file/0c17482c4bfa0fda3d360.jpg"
+SAITAMA_IMG = "https://telegra.ph/file/af6d4acc7e1326e629048.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project via [Paypal](ko-fi.com/Theshashank) or by contacting @Theshashank \
@@ -223,7 +223,7 @@ def start(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="☑️ Add White Devil to your group",
+                                text="☑️ Add Nobita to your group",
                                 url="t.me/{}?startgroup=true".format(
                                     context.bot.username
                                 ),
@@ -232,23 +232,23 @@ def start(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="🚑 Support Group",
-                                url=f"https://t.me/NarutoSupport",
+                                url=f"https://t.me/MrNobitaSupport",
                             ),
                             InlineKeyboardButton(
                                 text="🔔 Updates Channel",
-                                url="https://t.me/NarutoSupport",
+                                url="https://t.me/MrNobitaSupport",
                             ),
                         ],
                         [
                             InlineKeyboardButton(
                                 text="🧾 Getting started guide",
-                                url="https://t.me/NarutoSupport",
+                                url="https://t.me/MrNobitaSupport",
                             )
                         ],
                         [
                             InlineKeyboardButton(
                                 text="🗄 Source code",
-                                url="https://github.com/theshashankk/Naruto",
+                                url="https://github.com/theshashankk/MrNobita",
                             )
                         ],
                     ]
