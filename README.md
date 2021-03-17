@@ -2,7 +2,7 @@
   <img src="https://telegra.ph/file/35ddd11c07912fbc69fe9.jpg">
 </p>
 
-# Naruto Robot
+# SAVAGE OP
 
 <p align="center">
 - x -|│  “	Just some code who is a bot for fun. ”  │| - x -
