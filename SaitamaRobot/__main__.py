@@ -77,7 +77,7 @@ Hi {}, my name is {}!
 I am an Anime themed group management bot.
 Build by weebs for weebs, I specialize in managing anime and similar themed groups.
 You can find my list of available commands with /help.
-Maintained by @Theshashank
+Maintained by @SAVAGEGAMING001
 """
 
 HELP_STRINGS = """
@@ -101,10 +101,10 @@ And the following:
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
 )
 
-SAITAMA_IMG = "https://telegra.ph/file/af6d4acc7e1326e629048.jpg"
+SAITAMA_IMG = "https://telegra.ph/file/35ddd11c07912fbc69fe9.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project via [Paypal](ko-fi.com/Theshashank) or by contacting @Theshashank \
+ You can support the project via [Savage](https://t.me/SAVAGEGAMING001) or by contacting @SAVAGEGAMING001 \
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at @narutoSupporT."""
 
@@ -223,7 +223,7 @@ def start(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="☑️ Add Nobita to your group",
+                                text="☑️ Add Savage to your group",
                                 url="t.me/{}?startgroup=true".format(
                                     context.bot.username
                                 ),
@@ -232,17 +232,17 @@ def start(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="🚑 Support Group",
-                                url=f"https://t.me/MrNobitaSupport",
+                                url=f"https://t.me/joinchat/oc1riOdazvVjN2M5",
                             ),
                             InlineKeyboardButton(
                                 text="🔔 Updates Channel",
-                                url="https://t.me/MrNobitaSupport",
+                                url="https://t.me/joinchat/VchR9KwBbiumbsSi",
                             ),
                         ],
                         [
                             InlineKeyboardButton(
                                 text="🧾 Getting started guide",
-                                url="https://t.me/MrNobitaSupport",
+                                url="https://t.me/theshashank",
                             )
                         ],
                         [
